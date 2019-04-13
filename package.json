@@ -1,0 +1,39 @@
+{
+  "name": "better-vdom",
+  "version": "0.0.0",
+  "description": "A more sane way to generate vdom for your favorite unidirectional vdom library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha 'src/**/*.spec.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theqabalist/better-vdom.git"
+  },
+  "author": "Brandon Keown",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theqabalist/better-vdom/issues"
+  },
+  "homepage": "https://github.com/theqabalist/better-vdom#readme",
+  "dependencies": {
+    "akh": "^3.1.2",
+    "ramda": "^0.26.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.1",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "mocha": "^6.1.3"
+  },
+  "eslintConfig": {
+      "extends": "airbnb",
+      "env": {
+          "mocha": true,
+          "node": true
+      }
+  }
+}
